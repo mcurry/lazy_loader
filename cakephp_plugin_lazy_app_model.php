@@ -13,7 +13,7 @@
  *
  */
  
-class LazyAppModel extends Model {
+class LazyAppModel extends AppModel {
   function __isset($name) {
     foreach ($this->__associations as $type) {
       if(array_key_exists($name, $this->{$type})) {
