@@ -1,12 +1,20 @@
 /*
- * App Model
- * Copyright (c) 2008 Matt Curry
- * http://www.pseudocoder.com/archives/2009/04/17/on-the-fly-model-chains-with-cakephp/
+ * CakePHP Lazy Loader Plugin
+ * Copyright (c) 2009 Matt Curry
+ * http://www.pseudocoder.com/archives/2009/04/27/github-updates
+ *
+ * This is my second attempt at this.
+ * The code posted by jose_zap (José Lorenzo - http://joselorenzo.com.ve/)
+ * on bin.cakephp.org provided inspiration for this revised version
+ * http://bin.cakephp.org/saved/39855
  *
  * @author      Matt Curry <matt@pseudocoder.com>
  * @license     MIT
  *
  */
+
+/* Requirements */
+PHP 5.1 or greater
 
 /* Description */
 The code is very beta.  Please give it a shot and let me know where you hit snags.  

@@ -1,11 +1,12 @@
 <?php
 /*
- * Model Lazy Loader Plugin
+ * CakePHP Lazy Loader Plugin
  * Copyright (c) 2009 Matt Curry
- * http://www.pseudocoder.com/archives/2009/04/17/on-the-fly-model-chains-with-cakephp/
+ * http://www.pseudocoder.com/archives/2009/04/27/github-updates
  *
  * This is my second attempt at this.
- * This code posted by jose_zap on bin.cakephp.org provided inspiration for this revised version
+ * The code posted by jose_zap (José Lorenzo - http://joselorenzo.com.ve/)
+ * on bin.cakephp.org provided inspiration for this revised version
  * http://bin.cakephp.org/saved/39855
  *
  * @author      Matt Curry <matt@pseudocoder.com>
