@@ -13,8 +13,10 @@ The code is very beta.  Please give it a shot and let me know where you hit snag
 I've tested it in basic app using Containable and it works great.  
 It probably doesn't work with $recursive.
 
+If you find a problem check out the unit tests and see if you can create a failing test case
+
 /* Instructions */
-1) Download the plugin to /app/plugins/cakephp_plugin_lazy
+1) Download the plugin to /app/plugins/lazy_loader
 2) Put this either in your app_model.php or at the top of any model you want to use it:
-   App::import('Model', 'cakephp_plugin_lazy.app_model');
-3) Have your model extend LazyAppModel instead of AppModel.
+   App::import('Model', 'LazyLoader.app_model');
+3) Have your model extend LazyLoaderAppModel instead of AppModel.
