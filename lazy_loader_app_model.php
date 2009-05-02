@@ -15,6 +15,8 @@
  */
  
 class LazyLoaderAppModel extends AppModel {
+  var $__backInnerAssociation = array();
+  
   function __isset($name) {
     $className = false;
     
