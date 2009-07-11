@@ -25,12 +25,15 @@ If you find a problem check out the unit tests and see if you can create a faili
 
 /* Instructions */
 1) Download the plugin to /app/plugins/lazy_loader
+
 2) Put this either in your app_model.php or at the top of any model you want to use it:
    App::import('Model', 'LazyLoader.app_model');
+   
 3) Have your model extend LazyLoaderAppModel instead of AppModel
    class MyModel extends LazyLoaderAppModel {
    ...
    }
+   
 4) For this to work for HATBM relationships you need to include the joinTable and associationForeignKey in the defination.
    This is because Cake uses the associated models to set the defaults for these.  So even if you are following the conventions, set these to avoid having the related model loaded.
    class Post extends LazyLoaderAppModel {
