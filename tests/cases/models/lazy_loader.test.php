@@ -16,7 +16,9 @@ class Category extends LazyLoaderAppModel {
 
 class Post extends LazyLoaderAppModel {
 	var $name = 'Post';
-  
+  var $actsAs = array('Containable');
+  var $recursive = -1;
+	
   var $hasAndBelongsToMany = array('Tag' => array('joinTable' => 'posts_tags',
                                                   'associationForeignKey' => 'tag_id'));
   var $belongsTo = array('Category');
